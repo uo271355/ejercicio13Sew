@@ -1,0 +1,117 @@
+{
+    "type": "FeatureCollection",
+    "name": "mapa",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Madrid - Dublín",
+                "description": "Vuelo corto, dentro de la unión europea. No necesita el pasaporte apra realizarlo, con el DNI le es suficiente."
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-3.566693,40.493717],
+					[-3.566768,40.493831],
+					[-3.566929,40.494207],
+					[-3.567158,40.494764],
+					[-3.825132,41.060424],
+					[-4.148359,41.617529],
+					[-4.403892,41.982151],
+					[-5.148345,42.822726],
+					[-5.809140,43.392599],
+					[-7.110310,52.259125],
+					[-6.234106,53.426134]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+				"Name": "Bilbao - Alicante",
+                "description": "Vuelo muy corto, para viajar nacionalmente dentro del país."
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-2.901201,43.305803],
+					[-2.445370,42.461887],
+					[-0.890221,41.648114],
+					[-0.381273,39.464762],
+					[-0.557513,38.287190]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Ginebra - Los Angeles",
+                "description": "Vuelo largo, transoceanico. Viaje a fuera de la unión europea por lo que se requiere pasaporte."
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [6.075155,46.250265],
+					[-1.591166,47.157792],
+					[-8.173148,45.938637],
+					[-15.380179,44.702725],
+					[-28.827445,43.439855],
+					[-51.591117,40.833447],
+					[-58.095023,40.500118],
+					[-74.170768,40.699014]
+					[-96.274765,39.640636],
+					[-104.926530,39.749474],
+					[-115.142976,36.150742],
+					[-117.405918,33.942604]
+                ]
+            }
+        },
+		{
+			"type": "Feature",
+			"properties": {
+                "Name": "Valladolid"
+            },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-4.148359,41.617529]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+                "Name": "Oviedo"
+            },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [ -5.148345,42.822726]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+                "Name": "Waterford"
+            },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-7.110310,52.259125]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+                "Name": "Dublin"
+            },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [ -6.234106,53.426134]
+			}
+		},
+		
+    ]
+}

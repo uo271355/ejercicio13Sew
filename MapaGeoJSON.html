@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ejercicio 13 - Tarea 2</title>
+<link type = "text/css" rel="stylesheet" href="MapaGeoJSON.css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU"></script>
+<script src="MapaGeoJSON.js"></script>
+</head>
+<body>
+<header>
+<h1>Lee Archivos GeoJSON</h1>
+</header>
+<br>
+<input title="carga"type="file" id="archivoTexto" onchange="mapa.leerArchivos(this.files)">	
+<div id="mapa"></div>
+
+<footer>
+	<a href="https://validator.w3.org/check/referer" hreflang="en-us">
+		<img src="valid-html5-button.png" alt="¡HTML5 válido!" height="31" width="88" /></a>
+	<a href="https://jigsaw.w3.org/css-validator/check/referer">
+	   <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="¡CSS Válido!" /></a>
+</footer>
+</body>
+</html>

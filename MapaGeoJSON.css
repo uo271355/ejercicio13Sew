@@ -1,0 +1,23 @@
+body{
+	box-sizing: border-box;
+    background-color:white;
+    color:black;
+	margin: 25px 50px;
+}
+header{
+	padding:30px;
+	background:#F1F1B4;
+	text-align:center;
+	color:#E3B414;
+}
+#mapa {
+    height: 500px;
+    width: 100%;
+}
+footer{
+    margin-top:2em;
+}
+footer a img{
+    height:31px; 
+    width:88px;
+}
